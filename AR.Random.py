@@ -225,4 +225,4 @@ def Alhajm(uid,pwx,tl):
     except:
         pass
  
-Ashik()
+Alhaj()
