@@ -47,8 +47,8 @@ ugen=[]
 for tg in range(7000):
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['6.','7','8','9','10','11','12','13','14'])
-	c='itel A571W Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-	d=random.randrange(40,120)
+	c='V2027 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+	d=random.randrange(40,170)
 	e='0'
 	f=random.randrange(3000,6000)
 	g=random.randrange(40,132)
@@ -57,9 +57,9 @@ for tg in range(7000):
 	ugen.append(turag)
 for ua in range(7000):
       a='Mozilla/5.0 (Linux; Android'
-      b=random.choice(['7','8','9','10','11','12','13','14'])
-      c='V2025 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-      d=random.randrange(40,105)
+      b=random.choice(['5.1','6','7','8','9','10','11','12'])
+      c='Lenovo A1000 Build/S100; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+      d=random.randrange(40,118)
       e='0'
       f=random.randrange(3000,6000)
       g=random.randrange(40,100)
@@ -68,13 +68,13 @@ for ua in range(7000):
       ugen.append(ug)
 for ar in range(7000):
       a='Mozilla/5.0 (Linux; Android'
-      b=random.choice(['4.4.4.','5.1','6','7','8','9'])
-      y=random.choice(['SM-J320H, SM-J3109, SM-J320FN, SM-J320P, SM-J320F, SM-J320M, SM-J320Y, SM-J320A, SM-J320G, SM-J327T1, SM-J320V, SM-J320YZ, SM-J320W8, SM-J320ZN, SM-J320N0, SM-J320R4'])
-      c='SM-J320F Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/'
-      d=random.randrange(40,170)
+      b=random.choice(['5','6','7','8','9','10'])
+      y=random.choice(['SM-J330F, J330F, J330G, SM-J330G, SM-J330FN, SM-J3308, SM-J327F, SM-S337TL, SM-J3300, SM-J330L, SM-J327U, SM-J330N'])
+      c='SM-J330FN Build/R16NW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+      d=random.randrange(40,241)
       e='0'
       f=random.randrange(3000,6000)
-      g=random.randrange(20,100)
+      g=random.randrange(40,100)
       h='Mobile Safari/537.36'
       ar=(f"{a} {b}; {y} {c}{d}.{e}.{f}.{g} {h}")
       ugen.append(ug)
@@ -108,36 +108,33 @@ for sat in range(7000):
     l='.0'
     uaku2=f'{a}{b}{c}{d}{e}{f}{g}{h}{i}{j}{k}{l}'
     ugen.append(uaku2)
-os.system("xdg-open https://t.me/fb_crack_termux_all_free_command")
 logo =("""
 \033[1;32m                   ❝𝐖𝐢𝐧𝐧𝐞𝐫 𝐁𝐲 𝐀𝐒𝐇𝐈𝐊❞
 \033[1;36m                       Free Tool
-\033[1;32m                      Version 0.9
-\033[1;91m╔═════════════════════════╗
-\033[1;92m   ❝𝐖𝐢𝐧𝐧𝐞𝐫 𝐁𝐲 𝐀𝐒𝐇𝐈𝐊❞
-\033[1;91m╚═════════════════════════╝""")
+\033[1;32m                      Version 1.0
+\033[1;91m              ╔═════════════════════════╗
+\033[1;91m              ║    ❝𝐖𝐢𝐧𝐧𝐞𝐫 𝐁𝐲 𝐀𝐒𝐇𝐈𝐊❞    ║
+\033[1;91m              ╚═════════════════════════╝""")
  
 def Ashik():
     os.system('clear')
-    os.system('xdg-open https://facebook.com/groups/1713018672413612/')
+    os.system('xdg-open https://www.facebook.com/ashikor.ashik969')
     print(logo)
     print("")
-    print("\033[1;96m ╔═════════════════════════════════╗")
-    print("\033[1;36m ║  \033[1;35m[\033[1;32m1\033[1;35m][\033[1;32mA\033[1;35m] \033[1;32m ᎡᎪΝᎠϴᎷ ᏟᏞϴΝᎬ ᏴᎠ        \033[1;36m║")
-    print("\033[1;96m ╠═════════════════════════════════╣")
-    print(" \033[1;36m║  \033[1;35m[\033[1;32m2\033[1;35m][\033[1;32mB\033[1;35m] \033[1;32m ᎫϴᏆΝ ᎷƳ ҒᏴ ᏀᎡϴႮᏢ       \033[1;36m║")
-    print(" \033[1;36m║  \033[1;35m[\033[1;32m3\033[1;35m][\033[1;32mC\033[1;35m] \033[1;32m ᎫϴᏆΝ ᎷƳ MS ᏀᎡϴႮᏢ       \033[1;36m║")
-    print("\033[1;36m ║  \033[1;35m[\033[1;32m0\033[1;35m][\033[1;32mX\033[1;35m] \033[1;32m ᎬХᏆͲ                   \033[1;36m║")
-    print("\033[1;96m ╚═════════════════════════════════╝")
+    print("\033[1;96m ╔═══════════════════════════════════════════╗")
+    print("\033[1;36m ║  \033[1;35m[\033[1;32m1\033[1;35m][\033[1;32mA\033[1;35m] \033[1;32m ᎡᎪΝᎠϴᎷ ᏟᏞϴΝᎬ ᏴᎠ        \033[1;36m          ║")
+    print("\033[1;96m ╠═══════════════════════════════════════════╣")
+    print(" \033[1;36m║  \033[1;35m[\033[1;32m2\033[1;35m][\033[1;32mB\033[1;35m] \033[1;32m ᎷƳ ҒᏴ Id   \033[1;36m ║  ꕥꕥ༒ASHIKッ༒ᵸᴀᵸᴀꕥꕥ ║")
+    print(" \033[1;36m║  \033[1;35m[\033[1;32mA\033[1;35m][\033[1;32mA\033[1;35m] \033[1;32m Tool Status \033[1;36m║  Free              ║")
+    print("\033[1;36m ║  \033[1;35m[\033[1;32mA\033[1;35m][\033[1;32mA\033[1;35m] \033[1;32m Woarking    \033[1;36m║  2G,3G,4G,5G,Wifi  ║")
+    print("\033[1;96m ╚═══════════════════════════════════════════╝")
     print("")
     Ashik = input(f'\033[1;32m ՏᎬᏞᎬᏟͲᎬᎠ ƳϴႮᎡ ϴᏢͲᏆϴΝ :\033[1;36m ')
     if Ashik in ["1","A"]:
         Ashiks()
     if Ashik in ["2","B"]:
-        os.system('xdg-open https://facebook.com/groups/1713018672413612/')
+        os.system('xdg-open https://www.facebook.com/ashikor.ashik969')
     if Ashik in ["3","C"]:
-        os.system('xdg-open https://m.me/j/AbZqgfeGR8AMRy9D/')
-    if Ashik in ["0","X"]:
         os.system('exit')
 
 def Ashiks():
